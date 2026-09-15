@@ -1,3 +1,4 @@
+
 {
   "name": "kahanireel-api",
   "version": "1.0.0",
@@ -5,6 +6,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^4.0.0"
   },
   "engines": {
     "node": ">=18"
